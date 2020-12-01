@@ -14,11 +14,11 @@ function setup() {
 	world = engine.world;
 
 
-bob1=new bob(300,350,50);
-bob2=new bob(350,350,50);
-bob3=new bob(400,350,50);
-bob4=new bob(450,350,50);
-bob5=new bob(500,350,50);
+bob1=new Bob(300,350,50);
+bob2=new Bob(350,350,50);
+bob3=new Bob(400,350,50);
+bob4=new Bob(450,350,50);
+bob5=new Bob(500,350,50);
 
   ground1 = new Ground(400,100,300,40);
   sling1= new Suspender(bob1.body,ground1.body,-50*2,0);
