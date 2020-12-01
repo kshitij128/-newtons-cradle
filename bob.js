@@ -1,4 +1,4 @@
-class bob {
+class Bob {
     constructor(x,y,r){
         var options={
             isStatic:false,
